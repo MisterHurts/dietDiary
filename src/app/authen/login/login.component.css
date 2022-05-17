@@ -1,0 +1,24 @@
+.header_font {
+  display: flex;
+  justify-content: center;
+  color: rgb(131, 0, 188);
+}
+
+.input_border {
+  color: rgb(131, 0, 188);
+  border-radius: 6px;
+}
+
+.font_tag {
+  size: 14px;
+  color: black;
+}
+
+.layout_btn {
+  display: flex;
+  justify-content: center;
+}
+
+.input{
+  border: 0px solid #ced4da;
+}

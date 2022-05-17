@@ -14,7 +14,7 @@ body {
 
 .container {
   max-width: 500px;
-  margin: 172px auto;
+  margin: 144px auto;
   overflow: auto;
   min-height: 300px;
   border: 1px solid rgb(182, 100, 218);
@@ -46,7 +46,13 @@ body {
   width: 100%;
 }
 
+.form-group {
+  border: 0px solid #ffffff;
+  margin: 20px;
+}
+
 .form-control {
+  border: 1px solid #ced4da;
   margin: 20px 0;
 }
 
@@ -75,4 +81,44 @@ body {
 .form-control-check input {
   flex: 2;
   height: 20px;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.full-width-table {
+  width: 100%;
+}
+
+.full-width-pagination {
+  width: 100%;
+}
+
+.layout_table {
+  overflow-x: scroll;
+}
+
+.mat-elevation-z8  {
+  margin: 36px;
+  padding: 24px;
+}
+/* 
+.mat-cell,
+.mat-header-cell {
+    word-wrap: initial;
+    display: table-cell;
+    padding: 0px 10px;
+    line-break: unset;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.mat-row,
+.mat-header-row {
+    display: table-row;
+} */
+
+.btn_icon {
+  border: 0px;
+  background-color: transparent;
 }

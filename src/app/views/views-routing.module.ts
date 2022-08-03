@@ -5,7 +5,9 @@ import { AddFoodComponent } from './add-food/add-food.component';
 import { CommemtExerciseTableComponent } from './commemt-exercise-table/commemt-exercise-table.component';
 import { CommemtFoodTableComponent } from './commemt-food-table/commemt-food-table.component';
 import { ExerciseTableComponent } from './exercise-table/exercise-table.component';
+import { FoodCategoryTableComponent } from './food-category-table/food-category-table.component';
 import { FoodTableComponent } from './food-table/food-table.component';
+import { FoodUnitTableComponent } from './food-unit-table/food-unit-table.component';
 import { ViewsComponent } from './views.component';
 
 const routes: Routes = [
@@ -16,7 +18,9 @@ const routes: Routes = [
     { path: 'add_food', component:AddFoodComponent },
     { path: 'add_exercise', component:AddExerciseComponent },
     { path: 'comment_food', component:CommemtFoodTableComponent },
-    { path: 'comment_exercise', component:CommemtExerciseTableComponent }
+    { path: 'comment_exercise', component:CommemtExerciseTableComponent },
+    { path: 'category_food', component:FoodCategoryTableComponent },
+    { path: 'unit_food', component:FoodUnitTableComponent }
   ] }
 ];
 

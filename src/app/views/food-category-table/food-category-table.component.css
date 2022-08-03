@@ -1,0 +1,17 @@
+.full-width-table {
+  width: 100%;
+}
+
+.btn {
+  display: inline-block;
+  background: rgb(131, 16, 203);
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 8px 20px;
+  margin: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: inherit;
+}

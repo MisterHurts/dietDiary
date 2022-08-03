@@ -15,6 +15,8 @@ import { AddFoodComponent } from './add-food/add-food.component';
 import { AddExerciseComponent } from './add-exercise/add-exercise.component';
 import { CommemtFoodTableComponent } from './commemt-food-table/commemt-food-table.component';
 import { CommemtExerciseTableComponent } from './commemt-exercise-table/commemt-exercise-table.component';
+import { FoodCategoryTableComponent } from './food-category-table/food-category-table.component';
+import { FoodUnitTableComponent } from './food-unit-table/food-unit-table.component';
 
 
 @NgModule({
@@ -26,7 +28,9 @@ import { CommemtExerciseTableComponent } from './commemt-exercise-table/commemt-
     AddFoodComponent,
     AddExerciseComponent,
     CommemtFoodTableComponent,
-    CommemtExerciseTableComponent
+    CommemtExerciseTableComponent,
+    FoodCategoryTableComponent,
+    FoodUnitTableComponent
   ],
   imports: [
     CommonModule,
